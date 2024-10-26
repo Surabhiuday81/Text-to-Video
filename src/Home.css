@@ -1,0 +1,51 @@
+/* Home.css */
+.Home {
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden; /* Prevent content overflow */
+    /* Add any additional styling you need for your Home component */
+  }
+  
+  .searchbox{
+    margin-top: 5%;
+    background-image: linear-gradient(to left ,#C33764  , #1D2671);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+  }
+  .form-group{
+    font-size: 200%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .text-area{
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right:10%;
+  }
+  .text-area .form-control{
+    background-image: linear-gradient(to right ,#93A5CF , #E4EfE9);
+  }
+  .video-player{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image:url('/Users/udaysurabhi/Desktop/REACT/temo/src/backimg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    margin-right: 20%;
+  
+    
+  }
+  .react-vid{
+    display:inline-block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 12.5%;
+  }
